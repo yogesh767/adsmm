@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'DairymilkFont';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DairymilkFont'), url('./fonts/DairyMilkFont-Medium.otf') format('OpenType');
+}
+@font-face {
+  font-family: 'Gibson-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gibson-Regular'), url('./fonts/Gibson-Regular.ttf') format('TrueType');
+}
+
+body{
+  background-image: url('./images/BG.jpg');
+}
+
+.wrapper{
+  background-color: #320071;
+  height: 10%;
+  width: 100%;
+}
+.left{
+  width: 85%;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+}
+.logo2{
+  width: 203px ;
+  height: 82px ;
+}
+
+.logo3{
+  width: 39px;
+  height: 30px;
+}
+.mainpage{
+  font-family: 'Gibson-Regular';
+}
+
+.topImage img{
+  width: 100%;
+}
+.inputbox{
+  border-radius: 22px;
+}
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+.submitBtn{
+  background-color: #e5b565 !important;
+  color: #764074 !important;
+  font-weight: bold !important;
+  width: 100px;
+}
+.title{
+  font-weight: bolder;
+}
+.Otpbox{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Otele{
+  width: 50px;
+  height: 50px;
+  background-color: #320071;
+  color: white;
+}
+.resendLink{
+  color: #320071;
+  text-align: right;
+  font-weight: 900;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.text-left{
+  text-align: left;
+}
+.ballon{
+  height: 70px;
+}
+.select  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideImageleft{
+  margin-bottom: -100px;
+  height: 40px;
+}
+.sideImageright{
+  margin-top: -100px;
+  height: 40px;
+}
+.menu{
+  width: 100%;
+  border: 4px solid #e6b561;
+  border-radius: 15px;
+}
+.menuName{
+  color: #320c5f;
+  padding: 5px;
+  height: 37px;
+  background-color: #e6b561;
+}
+.imagi img{
+  height: 50px;
+}
+.imagiAbsulate{
+  width: 50px;
+  position: absolute;
+  right: 10px;
+}
+.imagiAbsulate img{
+  width: 50px;
+}
+.imagiselect{
+  width: 50px;
+  padding: 3px;
+}
+.imagiselect div{
+  background-color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+.imagiselect img{
+  height: 25px;
+}
+.imagiselected{
+  background-color: #e6b561 !important;
+}
+.lirics{
+  height: 100%;
+  color: white;
+}
+.lirics{
+  background-color: white;
+  color: #320071;
+  border-radius: 10px;
+}
