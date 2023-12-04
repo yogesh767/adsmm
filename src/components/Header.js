@@ -5,7 +5,7 @@ import Hemburger from '../images/Hamburger.png'
 
 const Header = () => {
     return (
-        <div className='wrapper d-flex align-items-center justify-content-around px-2'>
+        <div className='wrapper d-flex align-items-center justify-content-around'>
             <div className='left'>
                 <div className='d-flex align-items-center '>
                     <img src={logo} className='logo'/>
