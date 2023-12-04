@@ -32,7 +32,7 @@ function Details(props) {
             </div>
             <div className='row'>
                 <div className="form-group mb-3 col-sm-12">
-                    <h5 className='text-light'>Their name</h5>
+                    <label className='text-light'>Their name</label>
                     <input value={birthdayBoy.name} onChange={(e) => { setBirthdayBoy({ ...birthdayBoy, name: e.target.value }) }} type="text" className="form-control inputbox" placeholder="name" />
                     {errorMessage.name.length ?
                         <div className="text-danger text-left">
@@ -43,11 +43,11 @@ function Details(props) {
                 </div>
 
                 <div className="form-group mb-3 col-sm-12">
-                    <h5 className='text-light' >How old they'll be this birthday</h5>
+                    <label className='text-light' >How old they'll be this birthday</label>
                     <input value={birthdayBoy.birthDay} onChange={(e) => { setBirthdayBoy({ ...birthdayBoy, birthDay: e.target.value }) }} type="date" className="form-control inputbox" placeholder="Date of Birth" />
                 </div>
                 <div className="form-group mb-3">
-                    <h5 className='text-light' >Gender</h5>
+                    <label className='text-light' >Gender</label>
                     <select className="form-control inputbox select" value={birthdayBoy.gender} onChange={(e) => { setBirthdayBoy({ ...birthdayBoy, gender: e.target.value }) }} >
                         <option value={"Male"} selected>Male</option>
                         <option value={"Female"}>Female</option>
