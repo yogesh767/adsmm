@@ -63,7 +63,7 @@ function Details2(props) {
             <h1 className='text-light'>What would you like their song's vibe to be ?</h1>
             <div className='topImage  d-flex text-center  justify-content-center align-items-center '>
                 <img src={PurpleMusicTone} className='sideImageleft' />
-                <img src={headphone} />
+                <img src={headphone} className='middleImage' />
                 <img src={Balloon2} className='sideImageright' />
             </div>
             <div className='menubar d-flex flex-column justify-content-center align-items-center'>
