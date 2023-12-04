@@ -20,21 +20,26 @@ body{
   height: 10%;
   width: 100%;
 }
-.left{
-  width: 85%;
+.form-group label{
+  font-family: Gibson-Regular;
+  font-size: small;
+}
+.menutext{
+  font-family: Gibson-Regular;
+  font-size: xx-small;
 }
 .logo {
-  width: 100px;
-  height: 50px;
+  width: 79px;
+  height: 22px;
 }
 .logo2{
-  width: 203px ;
-  height: 82px ;
+  width: 150px ;
+  height: 50px ;
 }
 
 .logo3{
-  width: 39px;
-  height: 30px;
+  width: 25px;
+  height: 15px;
 }
 .mainpage{
   font-family: 'Gibson-Regular';
@@ -48,7 +53,6 @@ body{
 }
 .text-justify{
   text-align: justify;
-  text-justify: inter-word;
 
 }
 .submitBtn{

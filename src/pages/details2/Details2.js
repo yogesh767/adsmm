@@ -71,34 +71,34 @@ function Details2(props) {
                     <div className='menuName'>Mood</div>
                     <div className='imogiarray  d-flex text-center  justify-content-between align-items-center p-2'>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, mood: "Happy" }) }}>
-                            <div className={birthdayBoy?.mood === "Happy" ? 'imagiselected' : ''}>
+                            <div className={"" + birthdayBoy?.mood === "Happy" ? 'imagiselected' : ''}>
                                 <img src={Happy} />
                             </div>
-                            <p className='text-light'>Happy</p>
+                            <p className='menutext text-light'>Happy</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, mood: "Romantic" }) }}>
-                            <div className={birthdayBoy?.mood === "Romantic" ? 'imagiselected' : ''}>
+                            <div className={"" + birthdayBoy?.mood === "Romantic" ? 'imagiselected' : ''}>
                                 <img src={Romantic} />
                             </div>
-                            <p className='text-light'>Romantic</p>
+                            <p className='menutext text-light'>Romantic</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, mood: "Funny" }) }}>
-                            <div className={birthdayBoy?.mood === "Funny" ? 'imagiselected' : ''}>
+                            <div className={"" + birthdayBoy?.mood === "Funny" ? 'imagiselected' : ''}>
                                 <img src={Funny} />
                             </div>
-                            <p className='text-light'>Funny</p>
+                            <p className='menutext text-light'>Funny</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, mood: "Motivational" }) }}>
-                            <div className={birthdayBoy?.mood === "Motivational" ? 'imagiselected' : ''}>
+                            <div className={"" + birthdayBoy?.mood === "Motivational" ? 'imagiselected' : ''}>
                                 <img src={Motivational} />
                             </div>
-                            <p className='text-light'>Motivational</p>
+                            <p className='menutext text-light'>Motivational</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, mood: "Calm" }) }}>
-                            <div className={birthdayBoy?.mood === "Calm" ? 'imagiselected' : ''}>
+                            <div className={"" + birthdayBoy?.mood === "Calm" ? 'imagiselected' : ''}>
                                 <img src={Calm} />
                             </div>
-                            <p className='text-light'>Calm</p>
+                            <p className='menutext text-light'>Calm</p>
                         </div>
                     </div>
                 </div>
@@ -109,31 +109,31 @@ function Details2(props) {
                             <div className={birthdayBoy?.genre === "Rap" ? 'imagiselected' : ''}>
                                 <img src={Rap} />
                             </div>
-                            <p className='text-light'>Rap</p>
+                            <p className='menutext text-light'>Rap</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, genre: "Rock" }) }}>
                             <div className={birthdayBoy?.genre === "Rock" ? 'imagiselected' : ''}>
                                 <img src={Rock} />
                             </div>
-                            <p className='text-light'>Rock</p>
+                            <p className='menutext text-light'>Rock</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, genre: "Pop" }) }}>
                             <div className={birthdayBoy?.genre === "Pop" ? 'imagiselected' : ''}>
                                 <img src={Pop} />
                             </div>
-                            <p className='text-light'>Pop</p>
+                            <p className='menutext text-light'>Pop</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, genre: "Desi" }) }}>
                             <div className={birthdayBoy?.genre === "Desi" ? 'imagiselected' : ''}>
                                 <img src={Desi} />
                             </div>
-                            <p className='text-light'>Desi</p>
+                            <p className='menutext text-light'>Desi</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, genre: "Edm" }) }}>
                             <div className={birthdayBoy?.genre === "Edm" ? 'imagiselected' : ''}>
                                 <img src={Edm} />
                             </div>
-                            <p className='text-light'>Edm</p>
+                            <p className='menutext text-light'>Edm</p>
                         </div>
                     </div>
                 </div>
@@ -144,13 +144,13 @@ function Details2(props) {
                             <div className={birthdayBoy?.voice === "Male" ? 'imagiselected' : ''}>
                                 <img src={MAle} />
                             </div>
-                            <p className='text-light'>Male</p>
+                            <p className='menutext text-light'>Male</p>
                         </div>
                         <div className='imagiselect' onClick={() => { setBirthdayBoy({ ...birthdayBoy, voice: "Female" }) }}>
                             <div className={birthdayBoy?.voice === "Female" ? 'imagiselected' : ''}>
                                 <img src={Female} />
                             </div>
-                            <p className='text-light'>Female</p>
+                            <p className='menutext text-light'>Female</p>
                         </div>
                     </div>
                 </div>

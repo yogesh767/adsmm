@@ -122,7 +122,7 @@ const Registration = () => {
                         </div>
                         <div className="form-group form-check mb-4 col-sm-12">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" checked={user.acceptTerms} onChange={(e) => { setUser({ ...user, acceptTerms: e.target.checked }) }} />
-                            <label className="form-check-label text-light text-justify" htmlFor="exampleCheck1" >I Accept Terms & Conditions and Privacy Policy of Mondelez (Cadbury) </label>
+                            <label className="form-check-label text-light text-justify" htmlFor="exampleCheck1" >I accept Terms & Conditions and Privacy Policy of Mondelez (Cadbury) </label>
                         </div>
                         <div className="form-group form-check mb-4col-sm-12">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" checked={user.promotionl} onChange={(e) => { setUser({ ...user, promotionl: e.target.checked }) }} />
